@@ -46,3 +46,9 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# npm packages
+sudo npm install -g coffee-script
+npm install -g iced-coffee-script
+npm install -g cheerio
+npm install -g restler
+npm install -g express
